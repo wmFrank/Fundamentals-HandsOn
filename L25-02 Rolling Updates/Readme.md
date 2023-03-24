@@ -48,7 +48,7 @@ Edit the YAML file and change the container version from 1.0 to 2.0. Save the fi
 
 ## Get the deployment history
 
-    kubectl rollout status deployment/hello-dep
+    kubectl rollout history deployment/hello-dep
 
 ---
  
@@ -64,7 +64,7 @@ or
 
 ## Get the deployment history
 
-    kubectl rollout status deployment/hello-dep
+    kubectl rollout history deployment/hello-dep
 
 ## How many ReplicaSets do we have?
 
